@@ -29,5 +29,4 @@ jobs:
         distribution: 'adopt'
         cache: maven
     - name: Run Tests
-      working-directory: ./votingApp
       run: mvn --batch-mode -Dmaven.test.failure.ignore=true test
